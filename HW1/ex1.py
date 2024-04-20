@@ -64,7 +64,7 @@ if __name__ == "__main__":
     #display_image(img, "Original Image")
 
     # Convert the image to grayscale
-    img_gray = grayscale_image(img)
+    #img_gray = grayscale_image(img)
 
     # Display the grayscale image
     #display_image(img_gray, "Grayscale Image")
@@ -73,16 +73,16 @@ if __name__ == "__main__":
     #save_image(img_gray, "./images/lena_gray.jpg")
 
     # Flip the grayscale image
-    img_gray_flipped = flip_image(img_gray)
+    #img_gray_flipped = flip_image(img)
 
     # Display the flipped grayscale image
-    display_image(img_gray_flipped, "Flipped Grayscale Image")
+    #display_image(img_gray_flipped, "Flipped Grayscale Image")
 
     # Rotate the grayscale image
-    #img_gray_rotated = rotate_image(img_gray, 45)
+    img_gray_rotated = rotate_image(img, 45)
 
     # Display the rotated grayscale image
-    #display_image(img_gray_rotated, "Rotated Grayscale Image")
+    display_image(img_gray_rotated, "Rotated Image")
 
     # Save the rotated grayscale image
     #save_image(img_gray_rotated, "./images/lena_gray_rotated.jpg")
